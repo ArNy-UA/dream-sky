@@ -1,0 +1,102 @@
+body {
+    width: 1440px;
+    height: 6337px;
+    
+    background: #16171C;
+    }
+    
+.header {
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(270deg, rgba(24, 15, 1, 0.5) 0%, rgba(33, 24, 10, 0.5) 50.98%, rgba(132, 81, 20, 0.355) 100%);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.name {
+    width: 195px;
+    height: 50px;
+    left: 100px;
+    top: 25px;
+    
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    /* or 62% */
+    
+    letter-spacing: 0.05em;
+    
+    /* Orang */
+    
+    color: #CE760B;
+    padding: 25px 1145px 25px 100px;
+    }
+
+.menu {
+    display: flow-root;
+    margin: 38px 469px 38px 469px;
+    
+}
+
+.menu-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    /* White */
+
+    color: #FFFEEB;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-tel {
+    width: 187px;
+    height: 23px;
+    left: 1153px;
+    top: 38px;
+    
+    /* Body_1 */
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    
+    text-align: right;
+    letter-spacing: 0.05em;
+    
+    /* White */
+    
+    color: #FFFEEB;
+}
+
+.main-screen {
+  
+    
+}
+
+.social {
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 49px;
+margin: 24px 50px 40px 25px;
+

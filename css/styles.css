@@ -49,34 +49,3 @@ background: #16171C;
     left: 469px;
     top: 38px;
 }
-
-.menu-name {
-    width: 72px;
-height: 24px;
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-text-align: center;
-letter-spacing: 0.05em;
-
-/* White */
-
-color: #FFFEEB;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-
-.main-screen{
-
-
-}
