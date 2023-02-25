@@ -1,51 +1,113 @@
-body {
-width: 1440px;
-height: 6337px;
-
-background: #16171C;
+.list {
+    list-style: none;
 }
 
-.header {
-    width: 1440px;
-    height: 100px;
-    left: 0px;
-    top: 0px;
-    
-    background: linear-gradient(270deg, rgba(24, 15, 1, 0.5) 0%, rgba(33, 24, 10, 0.5) 50.98%, rgba(132, 81, 20, 0.355) 100%);
-    border-radius: 0px 0px 10px 10px;
+.link {
+    text-decoration: none;
 }
 
-.name {
-    width: 195px;
-    height: 50px;
-    left: 100px;
-    top: 25px;
-    
-    font-family: 'Playfair Display SC';
-    font-style: normal;
+.menu-link {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 20px;
-    /* or 62% */
-    
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
     letter-spacing: 0.05em;
-    
-    /* Orang */
-    
+    /* color: #FFFEEB; */
+}
+
+.menu-link:hover,
+.menu-link:focus {
     color: #CE760B;
 }
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
-
-    position: absolute;
-    width: 502px;
-    height: 24px;
-    left: 469px;
-    top: 38px;
+.contact-phone {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    /* color: #FFFEEB; */
 }
+
+.contact-phone:hover,
+.contact-phone:focus {
+    color: #CE760B;
+}
+
+.main-color {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #FFFCB8;
+}
+
+.main-color-two {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    color: #16171C;
+}
+
+.main-avtor {
+
+}
+
+.avtor-color {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFCB8;
+}
+.avtor-color-two {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #16171C;
+}
+
+.user {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #CE760B;
+}
+.info {
+    font-family: 'Jura';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #FFFEEB;
+}
+
+.work {
+    font-family: 'Playfair Display SC';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #CE760B;
+
+    }

@@ -5,38 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DreamSky</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura&family=Montserrat&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
  <body>
-    <header>
-        <nav>
-        <a href="">
-            <img src="img/logo.svg" alt="logotype"  width="190" height="50" /> 
+    <!-- Header -->
+    <header class="page-header">
+        <nav class="page-nav">
+        <a class="logo" href="">
+            <img class="logo-img" src="img/logo.svg" alt="logotype"  width="190" height="50" /> 
         </a>
-        <ul>
-            <li>
-                <a href="">Головна</a>
+        <ul class="menu list">
+            <li class="menu-item">
+                <a class="menu-link link" href="">Головна</a>
             </li>
-            <li>
-                <a href="">Галерея</a>
+            <li  class="menu-item">
+                <a class="menu-link link" href="">Галерея</a>
             </li>
-            <li>
-                <a href="">Контакти</a>
+            <li class="menu-item">
+                <a class="menu-link link" href="">Контакти</a>
             </li>
         </ul>
         </nav>
-
-        <a href="tel:+380671023982">+38 067 102 39 82</a>
-        <button type="button">Онлайн Запис</button>
+        <a class="contact-phone link" href="tel:+380671023982">+38 067 102 39 82</a>
     </header>
     <main>
-        <section>
-            <div>
-                <ul>
+        <section class="hero">
+            <div class="hero-top">
+                <ul class="social-list">
                     <li>
-                        <a href=""></a>
+                        <img src="" alt="">
+                        <a href="" lang="en">YouTube</a>
                     </li>
                     <li>
-                        <a href=""></a>
+                        <a href="" lang="en">FaceBook</a>
                     </li>
                     <li>
                         <a href=""></a>
@@ -50,48 +54,70 @@
                 </ul>
             </div>
 
-            <div>
-                <h1 lang="en">Dream Sky Studio</h1>
-                <p>Художник Наталія Арнаут</p>
+            <div class="hero-name">
+                <h1 class="main-title" lang="en"><span class="main-color">Dream</span> <span class="main-color-two">Sky Studio</span></h1>
+                <p class="main-avtor"><span class="avtor-color">ХУДОЖНИК</span>  <span class="avtor-color-two">НАТАЛІЯ АРНАУТ</span></p>
+            </div>
+        </section>
+        <!-- About user -->
+        <section>
+            <div class="about">
+                <img src="img/user.jpg" alt=" " width="506px" height="600px"/>
+                <h3 class="user">Наталія Арнаут</h3>
+                <p class="info">
+                    Наталія Арнаут - художник з пісочної анімаціі з десятирічним досвідом роботи. Кожен пісочний проект – це ексклюзивний сюжет, за мотивами Вашої неповторної історії, в який художниця вкладає не тільки копітку працю, а й частинку своєї душі.
+                    Я допоможу втілити у пісочну казку будь-які ваші ідеї!
+                </p>
+                <h3 class="user" lang="en">Dream Sky Studio</h3>
+                <p class="info">
+                    Dream Sky Studio - це студія пісочної анімації з багаторічним досвідом роботи.
+                    За цей час ми створювали для наших кієнтів привітання та Love Story, історії розвитку підприємств та історії життя, інфографіку та рекламу, кліпи, презентації, листівки та багато іншого.
+                </p>
+            
+
             </div>
         </section>
 
         <!-- work -->
         <section>
-            <h2>Шо ми робимо</h2>
-            <ul>
+            <h3 class="work">Шо ми робимо</h3>
+            <ul class="list">
             <li>
                 <img src="img/work/work1.jpg" alt="love Story" width="370" height="450"/>
-                <h3>Пісочна love Story</h3>
+                <p>Пісочна love Story</p>
             </li>
             <li>
                 <img src="img/work/work2.jpg" alt="Концертні програми" width="370" height="450"/>
-                <h3>Концертні програми</h3>
+                <p>Концертні програми</p>
             </li>
             <li>
                 <img src="img/work/work3.jpg" alt="Пісочні привітання" width="370" height="450"/>
-                <h3>Пісочні привітання</h3>
+                <p>Пісочні привітання</p>
             </li>
             <li>
                 <img src="img/work/work4.jpg" alt="Корпоративні шоу" width="370" height="450"/>
-                <h3>Корпоративні шоу</h3>
+                <p>Корпоративні шоу</p>
             </li>
             </ul>
+        </section>
+        <!-- Відео формат -->
+        <section>
+            
         </section>
 
         <!-- contact -->
         <section>
             <h2>Контакти</h2>
             <address>
-                <ul>
-                    <li>
-                        <a href="https://goo.gl/maps/XS95W8mJSrYn1WFq9" target="_blank" rel="noopener noreferrer">Україна, м. Запоріжжя</a>
+                <ul class="list">
+                    <li class="menu-item">
+                        <a class="menu-link link" href="https://goo.gl/maps/XS95W8mJSrYn1WFq9" target="_blank" rel="noopener noreferrer">Україна, м. Запоріжжя</a>
                     </li>
-                    <li>
-                        <a href="tel:+380671023982">+38 067 102 39 82</a>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="tel:+380671023982">+38 067 102 39 82</a>
                     </li>
-                    <li>
-                        <a href="mailto:dreamsky2014icloud.com">dreamsky2014icloud.com</a>
+                    <li class="menu-item">
+                        <a class="menu-link link" href="mailto:dreamsky2014icloud.com">dreamsky2014icloud.com</a>
                     </li>
                 </ul>
             </address>
